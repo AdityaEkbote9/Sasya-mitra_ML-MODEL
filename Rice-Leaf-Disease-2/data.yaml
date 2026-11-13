@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Bacterialblight', 'Blast', 'Brownspot', 'Tungro']
+
+roboflow:
+  workspace: saad-sahriar-bomj8
+  project: rice-leaf-disease-a9v6f
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/saad-sahriar-bomj8/rice-leaf-disease-a9v6f/dataset/2

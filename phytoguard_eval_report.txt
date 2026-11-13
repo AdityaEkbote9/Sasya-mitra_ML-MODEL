@@ -1,0 +1,22 @@
+                         precision    recall  f1-score   support
+
+  Potato___Early_blight     1.0000    1.0000    1.0000       100
+   Potato___Late_blight     1.0000    1.0000    1.0000       100
+           Rice___Blast     0.9208    0.9300    0.9254       100
+          Rice___Tungro     0.9608    0.9608    0.9608        51
+    Sugarcane___Healthy     0.8824    0.9000    0.8911       100
+     Sugarcane___RedRot     0.8313    0.6900    0.7541       100
+       Sugarcane___Rust     0.7830    0.8300    0.8058       100
+     Sugarcane___yellow     0.7157    0.7300    0.7228       100
+Tomato___bacterial_spot     0.5185    0.8235    0.6364        17
+       Tomato___healthy     0.8252    0.8500    0.8374       100
+   Tomato___leaf_blight     0.9322    0.7639    0.8397        72
+     Tomato___leaf_mold     0.8462    0.9565    0.8980        23
+     Wheat___Black_Rust     0.3333    0.3333    0.3333         3
+     Wheat___Brown_Rust     0.7500    0.6000    0.6667         5
+  Wheat___Healthy_Wheat     0.8851    0.9059    0.8953        85
+    Wheat___Yellow_Rust     0.0000    0.0000    0.0000         5
+
+               accuracy                         0.8615      1061
+              macro avg     0.7615    0.7671    0.7604      1061
+           weighted avg     0.8673    0.8615    0.8624      1061

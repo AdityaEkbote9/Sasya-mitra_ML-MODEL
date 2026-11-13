@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Healthy', 'RedRot', 'Rust', 'Yellow']
+
+roboflow:
+  workspace: css1812arasaka
+  project: sugarcane-leaf-disease-dataset-p6fnb
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/css1812arasaka/sugarcane-leaf-disease-dataset-p6fnb/dataset/4

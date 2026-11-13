@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['bacterial spot', 'healthy', 'leaf blight', 'leaf mold']
+
+roboflow:
+  workspace: fyp-y1ova
+  project: tomato-leaf-disease-rczh4
+  version: 18
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fyp-y1ova/tomato-leaf-disease-rczh4/dataset/18
